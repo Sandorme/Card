@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Connect style.css and main.js-->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <!--Icon image and google fonts-->
+    <link type="image/png" sizes="32x32" rel="icon" href="icons8-male-user-32.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    
+    <title>Card UI</title>
+</head>
+<body>
+    <div class="card">
+        <div class="img">
+            <img src="profilePicture.jpg" alt="Front End Guy">
+        </div>
+        <div class="infos">
+            <div class="name">
+                <h2>Mészáros Sándor</h2>
+                <h4>@isandormeszaros</h4>
+            </div>
+            <p class="text">I am a Front End developer, follow me to be the first who see my new work!</p>
+            <ul class="stats">
+                <li>
+                    <h3>20K</h3>
+                    <h4>Views</h4>
+                </li>
+                <li>
+                    <h3>56</h3>
+                    <h4>Projects</h4>
+                </li>
+                <li>
+                    <h3>1,4K</h3>
+                    <h4>Followers</h4>
+                </li>
+            </ul>
+            <div class="links">
+                <button class="follow" onclick="newPage()">Follow</button>
+                <button class="views" onclick="newProfile()">View profile</button>
+                <audio id="audio" src="mouthClick.mp3.mp3"></audio>
+                <p id="empty"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
